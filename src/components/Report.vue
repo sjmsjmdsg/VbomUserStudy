@@ -42,15 +42,15 @@ export default {
           options: ['google android is better', 'apple iphone os is better', 'they are equal', 'hard to say']
         },
         {
-          title: 'Please compare the products: <b>microsoft windows</b> vs <b>linux kernel</b>',
-          options: ['microsoft windows is better', 'linux kernel is better', 'they are equal', 'hard to say']
+          title: 'Please compare the products: <b>microsoft windows 10</b> vs <b>linux kernel</b>',
+          options: ['microsoft windows 10 is better', 'linux kernel is better', 'they are equal', 'hard to say']
         },
         {
           title: 'Please compare the products: <b>google chrome</b> vs <b>mozilla firefox</b>',
           options: ['google chrome is better', 'mozilla firefox is better', 'they are equal', 'hard to say']
         },{
-          title: 'Please compare the products: <b>microsoft windows server</b> vs <b>apple mac os x server</b>',
-          options: ['microsoft windows server is better', 'apple mac os x server is better', 'they are equal', 'hard to say']
+          title: 'Please compare the products: <b>microsoft windows server 2016</b> vs <b>apple mac os x server</b>',
+          options: ['microsoft windows server 2016 is better', 'apple mac os x server is better', 'they are equal', 'hard to say']
         },
       ],
     }
