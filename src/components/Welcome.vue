@@ -13,6 +13,9 @@
           <input type="text" v-model="name" required>
         </label>
       </div>
+      <div>
+        <button @click="pracQuestionnaire" class="start">Practice</button>
+      </div>
       <button @click="startQuestionnaire" class="start">Start</button>
     </form>
 
@@ -37,6 +40,12 @@ export default {
       if (this.name.trim() !== '') {
         this.$router.push({name: 'report', params: {name: this.name}});
         // this.$router.push({name: 'demo', params: {name: this.name}});
+      }
+    },
+    pracQuestionnaire () {
+      if (this.name.trim() !== '') {
+        // this.$router.push({name: 'report', params: {name: this.name}});
+        this.$router.push({name: 'demo', params: {name: this.name}});
       }
     }
   }
@@ -66,5 +75,6 @@ export default {
 
 .name_input {
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 </style>
